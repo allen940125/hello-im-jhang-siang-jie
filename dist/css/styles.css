@@ -10986,11 +10986,13 @@ section.resume-section .resume-section-content {
 }
 
 .project-card {
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; /* 添加 background-color 過渡 */
     margin-bottom: 2rem;
+    background-color: #fff; /* 預設背景顏色（白色，與Bootstrap卡片一致） */
 }
 
 .project-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    background-color: #e8e8e8; /* 懸停時加重的背景顏色（淺灰色） */
 }
