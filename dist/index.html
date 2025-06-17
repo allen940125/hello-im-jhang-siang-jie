@@ -118,248 +118,374 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Programming Projects-->
-            <section class="resume-section" id="programming projects">
+            <!-- Programming Projects -->
+            <section class="resume-section" id="programming-projects">
                 <div class="resume-section-content">
                     <h2 class="mb-5">程式作品</h2>
-
+                    
+                    <div class="mb-4">
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-outline-primary filter-btn active" data-filter="all">全部</button>
+                            <button type="button" class="btn btn-outline-primary filter-btn" data-filter="unity">Unity</button>
+                            <button type="button" class="btn btn-outline-primary filter-btn" data-filter="gamejam">Game Jam</button>
+                            <button type="button" class="btn btn-outline-primary filter-btn" data-filter="web">網頁</button>
+                        </div>
+                    </div>
+                    
                     <!-- Unity Framework -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Unity 自製遊戲框架</h3>
-                            <div class="subheading mb-2">個人研究專案</div>
-                            <p>設計一套模組化的遊戲開發框架，包含層級狀態機、道具系統、Addressble管理與UI系統。</p>
-                            <!-- <img src="assets/img/programming/Unity 自製遊戲框架.png" class="img-fluid rounded mb-3" alt="Unity 自製遊戲框架"> -->
+                    <div class="card project-card mb-4" data-category="unity">
+                        <div class="card-body">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">Unity 自製遊戲框架</h3>
+                                    <div class="subheading mb-2">個人研究專案</div>
+                                    <p>設計一套模組化的遊戲開發框架，包含層級狀態機、道具系統、Addressable管理與UI系統。</p>
+                                    <div class="badge bg-primary me-2">Unity</div>
+                                    <div class="badge bg-primary me-2">C#</div>
+                                    <div class="badge bg-primary me-2">3D</div>
+                                    <div class="badge bg-primary">設計模式</div>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">2025/03 ~ 現在</span></div>
+                            </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2025/03 ~ 現在</span></div>
                     </div>
-
+                    
                     <!-- Tsuginoha -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Kuso Game Jam 2025 - ツギノハ</h3>
-                            <div class="subheading mb-2">團隊合作專案</div>
-                            <p>以 48 小時完成的 2D 文字類恐怖搞笑遊戲，擔任主程式設計和專案管理者，負責設計系統並整合組員程式、製作對話系統、分配工作。</p>
-                            <!-- <img src="assets/img/programming/Kuso Game Jam 2025 - ツギノハ.png" class="img-fluid rounded mb-3" alt="Kuso Game Jam 2025 - ツギノハ"> -->
-                            <div class="ratio ratio-16x9 mb-3">
-                                <iframe src="https://www.youtube.com/embed/4WJtGoedeMg" title="Kuso Game Jam 2025 - ツギノハ 遊戲影片" allowfullscreen></iframe>
-                            </div>
-                            <div class="d-flex gap-2 mt-2">
-                                <a href="https://allen940125.itch.io/tsuginoha" target="_blank" class="btn btn-primary">前往遊戲下載</a>
-                                <a href="https://github.com/allen940125/KUSO-Game-Jam" target="_blank" class="btn btn-outline-secondary">GitHub 原始碼</a>
+                    <div class="card project-card mb-4" data-category="gamejam">
+                        <div class="card-body">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">Kuso Game Jam 2025 - ツギノハ</h3>
+                                    <div class="subheading mb-2">團隊合作專案</div>
+                                    <p>以 48 小時完成的 2D 文字類恐怖搞笑遊戲，擔任主程式設計和專案管理者，負責設計系統並整合組員程式、製作對話系統、分配工作。</p>
+                                    <div class="ratio ratio-16x9 mb-3">
+                                        <iframe src="https://www.youtube.com/embed/4WJtGoedeMg" title="Kuso Game Jam 2025 - ツギノハ 遊戲影片" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="badge bg-primary me-2">Unity</div>
+                                    <div class="badge bg-primary me-2">C#</div>
+                                    <div class="badge bg-primary me-2">2D</div>
+                                    <div class="badge bg-primary">Game Jam</div>
+                                    <div class="d-flex gap-2 mt-2">
+                                        <a href="https://allen940125.itch.io/tsuginoha" target="_blank" class="btn btn-primary">遊戲下載</a>
+                                        <a href="https://github.com/allen940125/KUSO-Game-Jam" target="_blank" class="btn btn-outline-primary">GitHub</a>
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">2025/04</span></div>
                             </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2025/04 ~ 2025/04</span></div>
                     </div>
-
+                    
                     <!-- 泰拉 -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">學校工讀專案 - 泰拉</h3>
-                            <div class="subheading mb-2">團隊合作專案</div>
-                            <p>XR遊戲開發 3D 益智互動遊戲，擔任主程式設計，負責全部程式項目。</p>
-                            <!-- <img src="assets/img/programming/學校工讀專案 - 泰拉.png" class="img-fluid rounded mb-3" alt="學校工讀專案 - 泰拉"> -->
-                            <div class="ratio ratio-16x9 mb-3">
-                                <iframe src="https://www.youtube.com/embed/H3n2b_M2dxc" title="泰拉 遊戲影片" allowfullscreen></iframe>
-                            </div>
-                            <div class="d-flex gap-2 mt-2">
-                                <a href="https://gitlab.com/mrgamedevelopment/mrgame" target="_blank" class="btn btn-outline-secondary">GitHub 原始碼</a>
+                    <div class="card project-card mb-4" data-category="unity">
+                        <div class="card-body">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">學校工讀專案 - 泰拉</h3>
+                                    <div class="subheading mb-2">團隊合作專案</div>
+                                    <p>XR遊戲開發 3D 益智互動遊戲，擔任主程式設計，負責全部程式項目。</p>
+                                    <div class="ratio ratio-16x9 mb-3">
+                                        <iframe src="https://www.youtube.com/embed/H3n2b_M2dxc" title="泰拉 遊戲影片" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="badge bg-primary me-2">Unity</div>
+                                    <div class="badge bg-primary me-2">C#</div>
+                                    <div class="badge bg-primary me-2">3D</div>
+                                    <div class="badge bg-primary">XR</div>
+                                    <div class="d-flex gap-2 mt-2">
+                                        <a href="https://gitlab.com/mrgamedevelopment/mrgame" target="_blank" class="btn btn-outline-secondary">原始碼</a>
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">2025/03 ~ 2025/06</span></div>
                             </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2025/03 ~ 2025/06</span></div>
                     </div>
-
+                    
                     <!-- 任務代碼：M -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">金犢獎互動廣告網頁組 - 任務代碼：M - 金犢獎入圍</h3>
-                            <div class="subheading mb-2">團隊合作專案</div>
-                            <p>金犢獎互動廣告網頁組 2D 解謎遊戲，擔任主程式設計，負責全部程式項目。</p>
-                            <!-- <img src="assets/img/programming/金犢獎互動廣告網頁組 - 任務代碼：M - 金犢獎入圍.png" class="img-fluid rounded mb-3" alt="任務代碼：M"> -->
-                            <div class="ratio ratio-16x9 mb-3">
-                                <iframe src="https://www.youtube.com/embed/AKtew7ArLUw" title="任務代碼：M 遊戲影片" allowfullscreen></iframe>
-                            </div>
-                            <div class="d-flex gap-2 mt-2">
-                                <a href="https://msi-web-design-competition.firebaseapp.com/" target="_blank" class="btn btn-primary">前往遊戲網址(可能掛了)</a>
-                                <a href="https://github.com/allen940125/msi-web-design-competition" target="_blank" class="btn btn-outline-secondary">GitHub 原始碼</a>
+                    <div class="card project-card mb-4" data-category="web">
+                        <div class="card-body">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">金犢獎互動廣告網頁組 - 任務代碼：M - 金犢獎入圍</h3>
+                                    <div class="subheading mb-2">團隊合作專案</div>
+                                    <p>金犢獎互動廣告網頁組 2D 解謎遊戲，擔任主程式設計，負責全部程式項目。</p>
+                                    <div class="ratio ratio-16x9 mb-3">
+                                        <iframe src="https://www.youtube.com/embed/AKtew7ArLUw" title="任務代碼：M 遊戲影片" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="badge bg-primary me-2">Unity</div>
+                                    <div class="badge bg-primary me-2">C#</div>
+                                    <div class="badge bg-primary me-2">2D</div>
+                                    <div class="badge bg-primary">Web</div>
+                                    <div class="d-flex gap-2 mt-2">
+                                        <a href="https://msi-web-design-competition.firebaseapp.com/" target="_blank" class="btn btn-primary">前往遊戲網址(可能掛了)</a>
+                                        <a href="https://github.com/allen940125/msi-web-design-competition" target="_blank" class="btn btn-outline-secondary">原始碼</a>
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">2025/03 ~ 2025/05</span></div>
                             </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2025/03 ~ 2025/05</span></div>
                     </div>
-
+                    
                     <!-- 九九的奇妙冒險 -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">知點人陪室8周開發 - 九九的奇妙冒險</h3>
-                            <div class="subheading mb-2">團隊合作專案</div>
-                            <p>在寒假以 8 周時間完成的 3D 搞笑跑庫遊戲，擔任主程式設計，負責全部程式項目。</p>
-                            <!-- <img src="assets/img/programming/知點人陪室8周開發 - 九九的奇妙冒險.png" class="img-fluid rounded mb-3" alt="九九的奇妙冒險"> -->
-                            <div class="ratio ratio-16x9 mb-3">
-                                <iframe src="https://www.youtube.com/embed/BA0l2WlogiE" title="九九的奇妙冒險 遊戲影片" allowfullscreen></iframe>
-                            </div>
-                            <div class="d-flex gap-2 mt-2">
-                                <a href="https://drive.google.com/drive/folders/1tIXFlEy6durmeOY42nmLV3DJC5my3jRX?usp=sharing" target="_blank" class="btn btn-primary">前往遊戲下載</a>
-                                <a href="https://gitlab.com/18week1/18week_3dproject_outofcontrol" target="_blank" class="btn btn-outline-secondary">GitHub 原始碼</a>
+                    <div class="card project-card mb-4" data-category="unity">
+                        <div class="card-body">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">知點人陪室8周開發 - 九九的奇妙冒險</h3>
+                                    <div class="subheading mb-2">團隊合作專案</div>
+                                    <p>在寒假以 8 周時間完成的 3D 搞笑跑庫遊戲，擔任主程式設計，負責全部程式項目。</p>
+                                    <div class="ratio ratio-16x9 mb-3">
+                                        <iframe src="https://www.youtube.com/embed/BA0l2WlogiE" title="九九的奇妙冒險 遊戲影片" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="badge bg-primary me-2">Unity</div>
+                                    <div class="badge bg-primary me-2">C#</div>
+                                    <div class="badge bg-primary">3D</div>
+                                    <div class="d-flex gap-2 mt-2">
+                                        <a href="https://drive.google.com/drive/folders/1tIXFlEy6durmeOY42nmLV3DJC5my3jRX?usp=sharing" target="_blank" class="btn btn-primary">遊戲下載</a>
+                                        <a href="https://gitlab.com/18week1/18week_3dproject_outofcontrol" target="_blank" class="btn btn-outline-secondary">原始碼</a>
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">2025/01 ~ 2025/04</span></div>
                             </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2025/01 ~ 2025/04</span></div>
                     </div>
-
+                    
                     <!-- Don't touch Bubble -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Global Game Jam 2025 - Don't touch Bubble！</h3>
-                            <div class="subheading mb-2">團隊合作專案</div>
-                            <p>以 48 小時完成的 3D 恐怖跑庫遊戲，擔任副程式設計，負責場景切換與音效播放上與部分美術資源整合。</p>
-                            <!-- <img src="assets/img/programming/Global Game Jam 2025 - Don't touch Bubble！.png" class="img-fluid rounded mb-3" alt="Don't touch Bubble！"> -->
-                            <div class="ratio ratio-16x9 mb-3">
-                                <iframe src="https://www.youtube.com/embed/Ky3tsrgCrbs" title="Don't touch Bubble 遊戲影片" allowfullscreen></iframe>
-                            </div>
-                            <div class="d-flex gap-2 mt-2">
-                                <a href="https://globalgamejam.org/games/2025/dont-touch-bubble-1" target="_blank" class="btn btn-primary">前往遊戲下載</a>
-                                <a href="https://github.com/darkcatneko/LungGame" target="_blank" class="btn btn-outline-secondary">GitHub 原始碼</a>
+                    <div class="card project-card mb-4" data-category="gamejam">
+                        <div class="card-body">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">Global Game Jam 2025 - Don't touch Bubble！</h3>
+                                    <div class="subheading mb-2">團隊合作專案</div>
+                                    <p>以 48 小時完成的 3D 恐怖跑庫遊戲，擔任副程式設計，負責場景切換與音效播放上與部分美術資源整合。</p>
+                                    <div class="ratio ratio-16x9 mb-3">
+                                        <iframe src="https://www.youtube.com/embed/Ky3tsrgCrbs" title="Don't touch Bubble 遊戲影片" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="badge bg-primary me-2">Unity</div>
+                                    <div class="badge bg-primary me-2">C#</div>
+                                    <div class="badge bg-primary me-2">3D</div>
+                                    <div class="badge bg-primary">Game Jam</div>
+                                    <div class="d-flex gap-2 mt-2">
+                                        <a href="https://globalgamejam.org/games/2025/dont-touch-bubble-1" target="_blank" class="btn btn-primary">遊戲下載</a>
+                                        <a href="https://github.com/darkcatneko/LungGame" target="_blank" class="btn btn-outline-secondary">原始碼</a>
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">2025/01</span></div>
                             </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2025/01 ~ 2025/01</span></div>
                     </div>
-
+                    
                     <!-- 定製戀人 -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">知點人陪室8周開發 - 定製戀人 - 放視備選入圍</h3>
-                            <div class="subheading mb-2">團隊合作專案</div>
-                            <p>在暑假以 8 周時間完成的 2D 卡牌加布娃娃拼接遊戲，擔任主程式設計，負責全部程式項目。</p>
-                            <!-- <img src="assets/img/programming/知點人陪室8周開發 - 定製戀人 - 放視備選入圍.png" class="img-fluid rounded mb-3" alt="定製戀人"> -->
-                            <div class="ratio ratio-16x9 mb-3">
-                                <iframe src="https://www.youtube.com/embed/ylzPCL8UkZQ" title="定製戀人 遊戲影片" allowfullscreen></iframe>
-                            </div>
-                            <div class="d-flex gap-2 mt-2">
-                                <a href="https://drive.google.com/file/d/1s4lVG9tRGs4q70A-mhBqTrD1eh6BlvXO/view" target="_blank" class="btn btn-primary">前往遊戲下載</a>
+                    <div class="card project-card mb-4" data-category="unity">
+                        <div class="card-body">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">知點人陪室8周開發 - 定製戀人 - 放視備選入圍</h3>
+                                    <div class="subheading mb-2">團隊合作專案</div>
+                                    <p>在暑假以 8 周時間完成的 2D 卡牌加布娃娃拼接遊戲，擔任主程式設計，負責全部程式項目。</p>
+                                    <div class="ratio ratio-16x9 mb-3">
+                                        <iframe src="https://www.youtube.com/embed/ylzPCL8UkZQ" title="定製戀人 遊戲影片" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="badge bg-primary me-2">Unity</div>
+                                    <div class="badge bg-primary me-2">C#</div>
+                                    <div class="badge bg-primary">2D</div>
+                                    <div class="d-flex gap-2 mt-2">
+                                        <a href="https://drive.google.com/file/d/1s4lVG9tRGs4q70A-mhBqTrD1eh6BlvXO/view" target="_blank" class="btn btn-primary">遊戲下載</a>
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">2024/06 ~ 2024/09</span></div>
                             </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2024/06 ~ 2024/09</span></div>
                     </div>
-
+                    
                     <!-- 自由之壁 -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Global Game Jam 2024 - 自由之壁</h3>
-                            <div class="subheading mb-2">團隊合作專案</div>
-                            <p>以 48 小時完成的 2D 解謎遊戲，擔任主程式設計，負責角色控制與場景切換與敵人AI邏輯與程式、美術資源整合。</p>
-                            <img src="assets/img/programming/Global Game Jam 2024 - 自由之壁.png" class="img-fluid rounded mb-3" alt="自由之壁">
-                            <a href="https://globalgamejam.org/games/2024/ziyouzhibi-1" target="_blank" class="btn btn-primary mt-2">前往遊戲下載</a>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2024/01 ~ 2024/01</span></div>
-                    </div>
-
-                    <!-- 兩分鐘勇者 -->
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">知點人陪室8周開發 - 兩分鐘勇者</h3>
-                            <div class="subheading mb-2">團隊合作專案</div>
-                            <p>在寒假以 8 周時間完成的 2D 搞笑探險遊戲，擔任主程式設計，負責全部程式項目。</p>
-                            <!-- <img src="assets/img/programming/知點人陪室8周開發 - 兩分鐘勇者.png" class="img-fluid rounded mb-3" alt="兩分鐘勇者"> -->
-                            <div class="ratio ratio-16x9 mb-3">
-                                <iframe src="https://www.youtube.com/embed/63LQjF1EXPM" title="兩分鐘勇者 遊戲影片" allowfullscreen></iframe>
+                    <div class="card project-card mb-4" data-category="gamejam">
+                        <div class="card-body">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">Global Game Jam 2024 - 自由之壁</h3>
+                                    <div class="subheading mb-2">團隊合作專案</div>
+                                    <p>以 48 小時完成的 2D 解謎遊戲，擔任主程式設計，負責角色控制與場景切換與敵人AI邏輯與程式、美術資源整合。</p>
+                                    <img src="assets/img/programming/Global Game Jam 2024 - 自由之壁.png" class="img-fluid rounded mb-3" alt="自由之壁">
+                                    <div class="badge bg-primary me-2">Unity</div>
+                                    <div class="badge bg-primary me-2">C#</div>
+                                    <div class="badge bg-primary me-2">2D</div>
+                                    <div class="badge bg-primary">Game Jam</div>
+                                    <div class="d-flex gap-2 mt-2">
+                                        <a href="https://globalgamejam.org/games/2024/ziyouzhibi-1" target="_blank" class="btn btn-primary">遊戲下載</a>
+                                    </div>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">2024/01</span></div>
                             </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2023/11 ~ 2024/01</span></div>
                     </div>
-
+                    
+                    <!-- 兩分鐘勇者 -->
+                    <div class="card project-card mb-4" data-category="unity">
+                        <div class="card-body">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">知點人陪室8周開發 - 兩分鐘勇者</h3>
+                                    <div class="subheading mb-2">團隊合作專案</div>
+                                    <p>在寒假以 8 周時間完成的 2D 搞笑探險遊戲，擔任主程式設計，負責全部程式項目。</p>
+                                    <div class="ratio ratio-16x9 mb-3">
+                                        <iframe src="https://www.youtube.com/embed/63LQjF1EXPM" title="兩分鐘勇者 遊戲影片" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="badge bg-primary me-2">Unity</div>
+                                    <div class="badge bg-primary me-2">C#</div>
+                                    <div class="badge bg-primary">2D</div>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">2023/11 ~ 2024/01</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </section>
 
-
-            <!-- Art Projects-->
-            <section class="resume-section" id="art projects">
+            <!-- Art Projects -->
+            <section class="resume-section" id="art-projects">
                 <div class="resume-section-content">
                     <h2 class="mb-5">美術作品</h2>
 
                     <p class="mb-4">雖然我的主力是遊戲程式設計，但我也對美術設計充滿熱情，平時會練習角色設計，以下為部分作品。接下來想挑戰３Ｄ看看。</p>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">角色設計：墮天使</h3>
-                            <div class="subheading mb-2">個人創作 · 美術</div>
-                            <p>一個將天使與惡魔融合的角色設計練習，使用 Procreate 繪製，風格偏向暗黑與唯美混合。</p>
-                            <img src="assets/img/art/2024_07_03_14hours.png" class="img-fluid rounded mb-2" alt="角色設計作品">
+                    <!-- 角色設計：墮天使 -->
+                    <div class="card project-card mb-4">
+                        <div class="card-body">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">角色設計：墮天使</h3>
+                                    <div class="subheading mb-2">個人創作 · 美術</div>
+                                    <p>一個將天使與惡魔融合的角色設計練習，使用 Procreate 繪製，風格偏向暗黑與唯美混合。</p>
+                                    <img src="assets/img/art/2024_07_03_14hours.png" class="img-fluid rounded mb-3" alt="角色設計作品">
+                                    <div class="badge bg-primary me-2">Procreate</div>
+                                    <div class="badge bg-primary">插畫</div>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">2024/07/03</span></div>
+                            </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2024/07/03_14hours</span></div>
                     </div>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">台南美術競賽</h3>
-                            <div class="subheading mb-2">比賽作品 · 插畫</div>
-                            <p>高中時參賽作品，主題是現代人於網路上過度修圖的現象。使用 Procreate 繪製。</p>
-                            <img src="assets/img/art/2024_02_29_15hours.png" class="img-fluid rounded mb-2" alt="角色設計作品">
+                    <!-- 台南美術競賽 -->
+                    <div class="card project-card mb-4">
+                        <div class="card-body">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">台南美術競賽</h3>
+                                    <div class="subheading mb-2">比賽作品 · 插畫</div>
+                                    <p>高中時參賽作品，主題是現代人於網路上過度修圖的現象。使用 Procreate 繪製。</p>
+                                    <img src="assets/img/art/2024_02_29_15hours.png" class="img-fluid rounded mb-3" alt="角色設計作品">
+                                    <div class="badge bg-primary me-2">Procreate</div>
+                                    <div class="badge bg-primary">插畫</div>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">2024/02/29</span></div>
+                            </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2024/02/29_15hours</span></div>
                     </div>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">服裝練習：軍裝</h3>
-                            <div class="subheading mb-2">個人學習 · 插畫</div>
-                            <p>嘗試繪製服裝材質，選擇軍裝是因為其結構硬挺，較容易掌握。使用 Procreate 繪製。</p>
-                            <img src="assets/img/art/2023_10_04_15hours.png" class="img-fluid rounded mb-2" alt="角色設計作品">
+                    <!-- 服裝練習：軍裝 -->
+                    <div class="card project-card mb-4">
+                        <div class="card-body">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">服裝練習：軍裝</h3>
+                                    <div class="subheading mb-2">個人學習 · 插畫</div>
+                                    <p>嘗試繪製服裝材質，選擇軍裝是因為其結構硬挺，較容易掌握。使用 Procreate 繪製。</p>
+                                    <img src="assets/img/art/2023_10_04_15hours.png" class="img-fluid rounded mb-3" alt="角色設計作品">
+                                    <div class="badge bg-primary me-2">Procreate</div>
+                                    <div class="badge bg-primary">插畫</div>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">2023/10/04</span></div>
+                            </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2023/10/04_15hours</span></div>
                     </div>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">厚塗臨摹練習</h3>
-                            <div class="subheading mb-2">個人學習 · 插畫</div>
-                            <p>首次嘗試厚塗技法進行臨摹練習。使用 Procreate 繪製。</p>
-                            <img src="assets/img/art/2023_09_28_5hours.png" class="img-fluid rounded mb-2" alt="角色設計作品">
+                    <!-- 厚塗臨摹練習 -->
+                    <div class="card project-card mb-4">
+                        <div class="card-body">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">厚塗臨摹練習</h3>
+                                    <div class="subheading mb-2">個人學習 · 插畫</div>
+                                    <p>首次嘗試厚塗技法進行臨摹練習。使用 Procreate 繪製。</p>
+                                    <img src="assets/img/art/2023_09_28_5hours.png" class="img-fluid rounded mb-3" alt="角色設計作品">
+                                    <div class="badge bg-primary me-2">Procreate</div>
+                                    <div class="badge bg-primary">插畫</div>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">2023/09/28</span></div>
+                            </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2023/09/28_5hours</span></div>
                     </div>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">立繪練習：胡桃</h3>
-                            <div class="subheading mb-2">個人學習 · 插畫</div>
-                            <p>首次嘗試畫立繪，角色為原神中的胡桃。使用 Procreate 繪製。</p>
-                            <img src="assets/img/art/2023_09_04_22.png" class="img-fluid rounded mb-2" alt="角色設計作品">
+                    <!-- 立繪練習：胡桃 -->
+                    <div class="card project-card mb-4">
+                        <div class="card-body">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">立繪練習：胡桃</h3>
+                                    <div class="subheading mb-2">個人學習 · 插畫</div>
+                                    <p>首次嘗試畫立繪，角色為原神中的胡桃。使用 Procreate 繪製。</p>
+                                    <img src="assets/img/art/2023_09_04_22.png" class="img-fluid rounded mb-3" alt="角色設計作品">
+                                    <div class="badge bg-primary me-2">Procreate</div>
+                                    <div class="badge bg-primary">插畫</div>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">2023/09/04</span></div>
+                            </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2023/09/04_22hours</span></div>
                     </div>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">場景練習：拉普蘭德</h3>
-                            <div class="subheading mb-2">個人學習 · 插畫</div>
-                            <p>第三次嘗試畫場景，角色為明日方舟的拉普蘭德。使用 Procreate 繪製。</p>
-                            <img src="assets/img/art/2023_01_30_10hours.png" class="img-fluid rounded mb-2" alt="角色設計作品">
+                    <!-- 場景練習：拉普蘭德 -->
+                    <div class="card project-card mb-4">
+                        <div class="card-body">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">場景練習：拉普蘭德</h3>
+                                    <div class="subheading mb-2">個人學習 · 插畫</div>
+                                    <p>第三次嘗試畫場景，角色為明日方舟的拉普蘭德。使用 Procreate 繪製。</p>
+                                    <img src="assets/img/art/2023_01_30_10hours.png" class="img-fluid rounded mb-3" alt="角色設計作品">
+                                    <div class="badge bg-primary me-2">Procreate</div>
+                                    <div class="badge bg-primary">插畫</div>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">2023/01/30</span></div>
+                            </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2023/01/30_10hours</span></div>
                     </div>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">場景練習：夕</h3>
-                            <div class="subheading mb-2">個人學習 · 插畫</div>
-                            <p>第二次嘗試畫場景，角色為明日方舟的夕。使用 Procreate 繪製。</p>
-                            <img src="assets/img/art/2023_01_29_11hours.png" class="img-fluid rounded mb-2" alt="角色設計作品">
+                    <!-- 場景練習：夕 -->
+                    <div class="card project-card mb-4">
+                        <div class="card-body">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">場景練習：夕</h3>
+                                    <div class="subheading mb-2">個人學習 · 插畫</div>
+                                    <p>第二次嘗試畫場景，角色為明日方舟的夕。使用 Procreate 繪製。</p>
+                                    <img src="assets/img/art/2023_01_29_11hours.png" class="img-fluid rounded mb-3" alt="角色設計作品">
+                                    <div class="badge bg-primary me-2">Procreate</div>
+                                    <div class="badge bg-primary">插畫</div>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">2023/01/29</span></div>
+                            </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2023/01/29_11hours</span></div>
                     </div>
 
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">場景練習：胡桃</h3>
-                            <div class="subheading mb-2">個人學習 · 插畫</div>
-                            <p>第一次嘗試畫場景，角色為原神中的胡桃。使用 Procreate 繪製。</p>
-                            <img src="assets/img/art/2023_01_29_16hours.png" class="img-fluid rounded mb-2" alt="角色設計作品">
+                    <!-- 場景練習：胡桃 -->
+                    <div class="card project-card mb-4">
+                        <div class="card-body">
+                            <div class="d-flex flex-column flex-md-row justify-content-between">
+                                <div class="flex-grow-1">
+                                    <h3 class="mb-0">場景練習：胡桃</h3>
+                                    <div class="subheading mb-2">個人學習 · 插畫</div>
+                                    <p>第一次嘗試畫場景，角色為原神中的胡桃。使用 Procreate 繪製。</p>
+                                    <img src="assets/img/art/2023_01_29_16hours.png" class="img-fluid rounded mb-3" alt="角色設計作品">
+                                    <div class="badge bg-primary me-2">Procreate</div>
+                                    <div class="badge bg-primary">插畫</div>
+                                </div>
+                                <div class="flex-shrink-0"><span class="text-primary">2023/01/29</span></div>
+                            </div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2023/01/29_16hours</span></div>
                     </div>
-
                 </div>
             </section>
-
+            
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">

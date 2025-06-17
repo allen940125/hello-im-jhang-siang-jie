@@ -10970,3 +10970,27 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.custom-card {
+    background-color: #fff; /* 白色背景 */
+    border: 1px solid #ddd; /* 邊框 */
+    border-radius: 8px; /* 圓角 */
+    padding: 1rem; /* 內間距 */
+    margin-bottom: 1rem; /* 外間距 */
+    transition: transform 0.3s, box-shadow 0.3s; /* 平滑過渡 */
+}
+
+.custom-card:hover {
+    transform: translateY(-5px); /* 向上移動 */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 陰影效果 */
+}
+
+.project-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 2rem;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
